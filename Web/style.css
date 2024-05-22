@@ -1,0 +1,31 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #D9B391; /* El color del fondo de la página web */
+    color: #364259; /* El color del texto*/ 
+    
+}
+@keyframes color-change {
+    0% {
+      color: #402B27;
+    }
+  
+    50% {
+      color: #9E6C6C;
+    }
+  
+    100% {
+      color: #402B27;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+h1 {
+     animation: color-change 3s infinite;
+} 
+
+ul:hover {animation: color-change 3s infinite;
+}
